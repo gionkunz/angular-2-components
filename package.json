@@ -1,0 +1,44 @@
+{
+  "name": "angular-2-components",
+  "version": "1.0.0",
+  "description": "Code for the Angular 2 Components Book",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gionkunz/angular-2-components-book.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gionkunz/angular-2-components-book/issues"
+  },
+  "keywords": [
+    "angular",
+    "angularjs",
+    "components"
+  ],
+  "author": "Gion Kunz",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "cssnano": "^3.3.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-postcss": "^6.0.1",
+    "gulp-sass": "^2.0.4",
+    "jspm": "^0.16.2"
+  },
+  "jspm": {
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-alpha.44",
+      "core-js": "npm:core-js@^1.1.4",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.1",
+      "zone.js": "npm:zone.js@^0.5.8"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2",
+      "text": "github:systemjs/plugin-text@^0.0.2"
+    }
+  }
+}
