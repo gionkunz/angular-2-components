@@ -1,0 +1,14 @@
+<div class="task-list__l-container">
+  <div class="task-list__l-box-a">
+    <ngc-toggle [button-list]="taskFilterList"
+                [(selected-button)]="selectedTaskFilter"></ngc-toggle>
+  </div>
+  <div class="task-list__l-box-b">
+    <ngc-enter-task (task-entered)="addTask($event)"></ngc-enter-task>
+  </div>
+  <div class="task-list__l-box-c">
+    <div class="task-list__tasks">
+      <ngc-task *ng-for="#task of getFilteredTasks()" [task-data]="task"></ngc-task>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,51 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  box-sizing: border-box;
+  font-family: Roboto, Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-weight: 300;
+  line-height: 1.25;
+  color: #404040;
+  background-color: #f5f5f5;
+}
+
+input, button, a, select {
+  font-family: Roboto, Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-weight: 300;
+  line-height: 1.25;
+  font-size: 16px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, .3);
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: rgba(0, 0, 0, .3);
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: rgba(0, 0, 0, .3);
+}
+
+:-ms-input-placeholder {
+  color: rgba(0, 0, 0, .3);
+}
+
+.app {
+
+  &__l-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
