@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gionkunz/angular-2-components-book.git"
+    "url": "https://github.com/gionkunz/angular-2-components.git"
   },
   "bugs": {
-    "url": "https://github.com/gionkunz/angular-2-components-book/issues"
+    "url": "https://github.com/gionkunz/angular-2-components/issues"
   },
   "keywords": [
     "angular",
